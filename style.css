@@ -10,4 +10,88 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--color-black);
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.logo img:hover {
+  transform: scale(1.2);
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_bar {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.nav_bar li:hover {
+  transform: scale(1.2);
+}
+
+.nav_bar .clothes img,
+.list img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav_bar .color button {
+  width: 70px;
+  height: 40px;
+}
+
+.nav_bar .color .blue {
+  background-color: var(--color-blue);
+}
+
+.nav_bar .color .yellow {
+  background-color: var(--color-yellow);
+}
+
+.nav_bar .color .pink {
+  background-color: var(--color-pink);
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  background-color: var(--color-white);
+  margin-top: 5px;
+}
+
+.list li img,
+.sex,
+.size {
+  margin-left: 15px;
 }
