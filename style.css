@@ -88,6 +88,11 @@ body {
   overflow-y: scroll;
 }
 
+/* hide scrollbar*/
+::-webkit-scrollbar {
+  display: none;
+}
+
 .item {
   background-color: var(--color-white);
   display: flex;
